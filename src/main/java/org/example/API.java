@@ -3,7 +3,12 @@ package org.example;
 import java.util.Deque;
 import java.util.LinkedList;
 
-
+/*
+    mimics an API that allows only
+    a certain number of requests per
+    min, and imposes a certain penalty when
+    limit is breached.
+*/
 public class API {
     private int callNumber;
     private final int penalty;
